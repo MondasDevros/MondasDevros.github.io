@@ -1,31 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <style>
+        button {
+            position: absolute;
+        }
+        
+        button#b1 {
+            top: 20%; left: 25%;
+            nav-index: 1;
+            nav-right: #b2; nav-left: #b4
+            nav-down: #b2; nav-up: #b4;     
+        }
+        
+        body {
+            height: 100vh;
+            width: 100vw;
+        }
+        .content {
+            height: 100%;
+            display: flex;
+        }
+        
         .body {
             flex: 1;
             border: 1px solid rebeccapurple;
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            justify-content: center;
         }
         
+        .body-text {
+            border: 1px solid green;
+            text-align: center;
+            flex: 1;
+            width: 125px;
+            margin: 30px;
+        }
+
         .secondary_right {
             flex: 1;
             border: 1px solid rebeccapurple;
+            display: flex;
+            
+            
+            
+        }
+
+        .secondary_left {
+           flex: 1;
+            border: 1px solid rebeccapurple;
+               
         }
         
-        .secondary_left {
+        .secondary-left-text{
+             border: 1px solid green;
+            text-align: center;
             flex: 1;
-            border: 1px solid rebeccapurple;
+            width: 125px;
+            margin: 30px;
+
+         
+                
         }
+         
+        
     </style>
 </head>
 <body>
-    <div class="content">
-        <div class="body"></div>
-        <div class="secondary_left"></div>
-        <div class="secondary_right"></div>
-    </div>
-    
+ 
     <div class="aesthetic">
-        <div class="top_left_finder"></div>
-        <div class="top_right_finder"></div>
+        <div class="top_left_finder">
+            <p title= "photoshop download">
+                mouse over this paragraph to display the title.
+            </p>
+        </div>
+        <div class="top_right_finder">
+            <p title= "...">
+                mouse over this paragraph to display the title.
+            </p>          
+        </div>
     </div>
+    <div class="content">
+        <div class="secondary_left"></div>
+            <div class="seconday-left-text">
+                 info.
+                
+        <div class="body">
+            <div class="body-text">
+                Info
+            </div>
+            <div class="body-text">
+                Info
+            </div>
+            <div class="body-text">
+                Info
+            </div>
+        </div>
+        <div class="secondary_right"></div>
+         
+    </div>
+
 </body>
