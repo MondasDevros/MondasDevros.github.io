@@ -1,7 +1,121 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <style>
+        button {
+            position: absolute;
+        }
+
+        button#b1 {
+            top: 20%; left: 25%;
+            nav-index: 1;
+            nav-right: #b2; nav-left: #b4
+            nav-down: #b2; nav-up: #b4;
+        }
+
+        body {
+          background : url("http://www.virhouse.com/images/Sugar-Sand.jpg");
+            height: 100vh;
+            width: 100vw;
+        }
+        .content {
+            height: 100%;
+            display: flex;
+        }
+
+        .body {
+
+            flex: 1;
+            border: 1px solid rebeccapurple;
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .body-text {
+            border: 1px solid green;
+            text-align: center;
+            flex: 1;
+            width: 125px;
+            margin: 30px;
+        }
+        .secondary_right {
+            flex: 1;
+            border: 1px solid rebeccapurple;
+            display: flex;
+
+
+
+        }
+
+         .secondary-right-text{
+           border: 1px solid green
+           text-align: right;
+           flex:1;
+           width: 130px;
+           margin: 42px;
+
+         }
+
+        .secondary_left {
+           flex: 1;
+            border: 1px solid rebeccapurple;
+
+        }
+
+        .secondary-left-text{
+             border: 1px solid green;
+            text-align:left;
+            flex: 1;
+            width: 130px;
+            margin: 42px;
+
+
+        }
+
+
+
+
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+    <div class="aesthetic">
+        <div class="top_left_finder">
+            <p title= "photoshop download">
+                mouse over this paragraph to display the title.
+            </p>
+        </div>
+        <div class="top_right_finder">
+            <p title= "...">
+                mouse over this paragraph to display the title.
+            </p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="secondary_left"></div>
+            <div class="seconday-left-text">
+                 info.
+
+        <div class="body">
+            <div class="body-text">
+                Info
+            </div>
+            <div class="body-text">
+                Info
+            </div>
+            <div class="body-text">
+                Info
+            </div>
+        </div>
+        <div class="secondary_right"></div>
+            <div class="Secondary_right_text">
+               .info
+             </div>
+        <div class=""
+
+
+    </div>
+
 </body>
-</html>
